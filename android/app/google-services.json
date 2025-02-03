@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "1005041529553",
+    "project_id": "absensi-app-dcbcd",
+    "storage_bucket": "absensi-app-dcbcd.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1005041529553:android:25345603e22d4f2c448bf0",
+        "android_client_info": {
+          "package_name": "com.example.flutter_absensi_app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBQjrF-sLor0NdhfEielbf910JeGskRS4U"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1005041529553:android:c50b66a9d00a5707448bf0",
+        "android_client_info": {
+          "package_name": "com.example.pertemuan_firebase"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBQjrF-sLor0NdhfEielbf910JeGskRS4U"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
