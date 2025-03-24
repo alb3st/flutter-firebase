@@ -33,10 +33,7 @@ class DefaultFirebaseOptions {
           'you can reconfigure this by running the FlutterFire CLI again.',
         );
       case TargetPlatform.windows:
-        throw UnsupportedError(
-          'DefaultFirebaseOptions have not been configured for windows - '
-          'you can reconfigure this by running the FlutterFire CLI again.',
-        );
+        return windows;
       case TargetPlatform.linux:
         throw UnsupportedError(
           'DefaultFirebaseOptions have not been configured for linux - '
@@ -65,4 +62,14 @@ class DefaultFirebaseOptions {
     projectId: 'absensi-app-dcbcd',
     storageBucket: 'absensi-app-dcbcd.firebasestorage.app',
   );
+
+  static const FirebaseOptions windows = FirebaseOptions(
+    apiKey: 'AIzaSyABLooXb7iy65gDukG600fFDZjXM1xv_DE',
+    appId: '1:1005041529553:web:6a2375084975dc9c448bf0',
+    messagingSenderId: '1005041529553',
+    projectId: 'absensi-app-dcbcd',
+    authDomain: 'absensi-app-dcbcd.firebaseapp.com',
+    storageBucket: 'absensi-app-dcbcd.firebasestorage.app',
+  );
+
 }
